@@ -57,7 +57,7 @@
             /*  background-color: lightgreen; */
         }	
         #Cuerpo3 {
-            list-style: none;
+/*            list-style: none;*/
             text-align: center;
             padding: 10px;
 		    font-weight: bold;
@@ -68,14 +68,16 @@
             background-color: #D5E18A;
         }
         
+        .SinViñeta {
+                    list-style: none;
+                    }
+        
     
         #Cuerpo4 {
                 border: 5px solid darkgreen;
-/*            border: 5px solid  #E7F330; */
-               background-image: url("GolosinasYGaseosas.jpg");
+                background-image: url("GolosinasYGaseosas.jpg");
                 height: 600px;
                 background-repeat: no-repeat;
-/*                background-size: cover;*/
                 background-size: 100% 100%;
             	}   
         
@@ -149,7 +151,7 @@
 -->
             
    <div id="Cuerpo3">
-        <UL>
+        <UL class="SinViñeta">
             <LI> <a href="#Articulos"> Articulos </a> </LI>	  
             <LI> <a href="#Contacto"> Contactos </a> </LI>	 
         </UL>
@@ -185,18 +187,21 @@
                           </UL>  
                           <BR>
                 </LI>
+                    
                 <LI> Golosinas 
                         <UL> 
                                 <LI><a href="GolosinasYGaseosas.jpg"> Chocolates y Dulces </a> </LI>
                         </UL>  
                         <BR>
                 </LI>
+                    
                 <LI> Y la mejor musica....dale play  👇 
                    <BR>  <BR>
                          <audio controls>
                                 <source src="El-Estudiante-LosTwist.mp3" type="audio/mp3"  >
                                 Tu navegador no soporta audio HTML5.
                         </audio>
+                        <BR>
                    
                 </LI>
             </UL>
